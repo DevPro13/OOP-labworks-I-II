@@ -1,3 +1,5 @@
-# C-labworks-I-II
+# CPP-labworks-I-II
 ### Inside
+* [Lab1](/lab1)
+* [Lab2](/lab2)
 
