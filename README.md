@@ -1,5 +1,5 @@
 # CPP-labworks-I-II
-### Inside
+### Folder Links!
 * [Lab1](/lab1)
 * [Lab2](/lab2)
 
