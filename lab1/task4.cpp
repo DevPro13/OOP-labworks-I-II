@@ -1,3 +1,6 @@
+/*Task #4:
+ WAP in CPP to illustrate the concept of inline function.
+*/
 #include<iostream>
 using namespace std;
 inline int greatest(int x,int y){

@@ -1,3 +1,6 @@
+/*Task #1:
+ WAP in C to add two complex numbers using the concept of structure.
+*/
 #include<stdio.h>
 struct complex
 {

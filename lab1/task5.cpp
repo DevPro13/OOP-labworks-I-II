@@ -1,3 +1,6 @@
+/*Task #5:
+ WAP in CPP to illustrate the concept of default arguments.
+*/
 #include<iostream>
 using namespace std;
 int sum (int,int,int,int,int,int);

@@ -1,4 +1,5 @@
-/*WAP in C to input the name, roll, marks and address of n students entered by the user and display the
+/* Task #2:
+ WAP in C to input the name, roll, marks and address of n students entered by the user and display the
 entered details using the concept of structure.
 */
 #include<stdio.h>
