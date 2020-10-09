@@ -18,14 +18,20 @@ public:
         cout<<"I am goddamn parameterized constructor"<<endl<<"real="
             <<real<<" ,imag="<<imag<<endl;;        
     }
-    copy Complex(){
-         cout<<"Ok. I am a default constructor"<<endl<<"real="
+    //copy constructor
+    Complex(const Complex &obj):real(5),imag(6){
+         cout<<"Ok. I am a copy constructor"<<endl<<"real="
             <<real<<" ,imag="<<imag<<endl;
     }
+    //destructor
+     ~Complex(){
+         cout<<"Ok. I am a goddamn destructor!"<<endl;
+     }
 };
 int main()
 {
-    Complex c;
+    Complex c,cp=c;
+    
     Complex c1(5,7);
     return 0;
 }
