@@ -5,31 +5,33 @@ Write a program in CPP to find the sum of two complex numbers using the OOP conc
 using namespace std;
 class complex
 {
-    float real1,real2,img1,img2;
+    float real,imag;
 public:
-    float r,i;
-    void getdata(){
-        cout<<"Enter complex number c1:real1,img1."<<endl;
-        cin>>real1>>img1;
-        cout<<"Enter complex number c2:real2,img2."<<endl;
-        cin>>real2>>img2;
+    complex(){
+        real=0;
+        imag=0;
     }
-    void sum(){
-        r=real1+real2;
-        i=img1+img2;
+    void getdata(){
+        cout<<"Enter complex number ::real,imag"<<endl;
+        cin>>real>>imag;
     }
     void showdata(){
-        cout<<"Sum of complex number "
-            <<real1<<"+i"<<img1<<" and "
-            <<real2<<"+i"<<img2<<" is "
-            <<r<<"+i"<<i<<"."<<endl;
+        cout<<"Sum of complex number is "
+            <<real<<"+i"<<imag<<"."<<endl;
     }
+    friend complex sum(complex c1,complex c2);
 };
+complex sum(complex c1,complex c2){
+    complex temp;
+    temp.real=c1.real+c2.real;
+    temp.imag=c1.imag+c2.imag;
+    return temp;
+}
 int main()
 {
-    complex c;
-    c.getdata();
-    c.sum();
-    c.showdata();
+    complex c1,c2;
+    c1.getdata();
+    c2.getdata();
+    sum(c1,c2).showdata();
     return 0;
 }

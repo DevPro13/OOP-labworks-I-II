@@ -19,7 +19,7 @@ public:
             <<real<<" ,imag="<<imag<<endl;;        
     }
     //copy constructor
-    Complex(const Complex &obj):real(5),imag(6){
+    Complex(const Complex &obj,int i,int r):real(i),imag(r){
          cout<<"Ok. I am a copy constructor"<<endl<<"real="
             <<real<<" ,imag="<<imag<<endl;
     }
@@ -30,8 +30,7 @@ public:
 };
 int main()
 {
-    Complex c,cp=c;
-    
-    Complex c1(5,7);
+    Complex c;
+    Complex c1(5,7),c2(c1,1,2);
     return 0;
 }
