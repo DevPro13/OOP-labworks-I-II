@@ -1,6 +1,6 @@
 # OOP-labworks-I-II
 ***This is a collection of labwork of Object Oriented Programming (Year-I Sem-II)***
-### Folder and files Links!
+### Folder and files Navigation Links!
 * **Lab1**(Sub:15th oct, 2020)
   * [Task1](/lab1/task1.c)|[Output](/lab1/Output/task1.jpg)
   * [Task2](/lab1/task2.c)|[Output](/lab1/Output/task2.jpg)
