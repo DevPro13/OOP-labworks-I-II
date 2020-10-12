@@ -12,5 +12,7 @@
   * [Task2](/lab2/task2.cpp)|[Output](/lab2/Output/task2.jpg)
   * [Task3](/lab2/task3.cpp)|[Output](/lab2/Output/task3.jpg)
   * [Task4](/lab2/task4.cpp)|[Output](/lab2/Output/task4.jpg)
-
-BY:**DEVRAJ PARAJULI**(076BEI013) 
+  
+  
+## DEVRAJ PARAJULI
+### 076BEI013 
