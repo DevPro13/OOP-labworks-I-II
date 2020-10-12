@@ -1,5 +1,4 @@
 # OOP-labworks-I-II
-### BY:**DEVRAJ PARAJULI**(076BEI013)  
 ***This is a collection of labwork of Object Oriented Programming (Year-I Sem-II)***
 ### Folder and files Navigation Links!
 * **Lab1**(Sub:15th oct, 2020)
@@ -14,3 +13,4 @@
   * [Task3](/lab2/task3.cpp)|[Output](/lab2/Output/task3.jpg)
   * [Task4](/lab2/task4.cpp)|[Output](/lab2/Output/task4.jpg)
 
+BY:**DEVRAJ PARAJULI**(076BEI013) 
