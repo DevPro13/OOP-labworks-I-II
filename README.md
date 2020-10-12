@@ -14,5 +14,5 @@
   * [Task4](/lab2/task4.cpp)|[Output](/lab2/Output/task4.jpg)
   
   
-### DEVRAJ PARAJULI
-### 076BEI013 
+**Name:**### DEVRAJ PARAJULI
+**Roll:**### 076BEI013 
