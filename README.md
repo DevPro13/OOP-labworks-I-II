@@ -12,6 +12,12 @@
   * [Task2](/lab2/task2.cpp)|[Output](/lab2/Output/task2.jpg)
   * [Task3](/lab2/task3.cpp)|[Output](/lab2/Output/task3.jpg)
   * [Task4](/lab2/task4.cpp)|[Output](/lab2/Output/task4.jpg)
+* **Lab3**(Sub:15th oct, 2020)
+  * [Task1](/lab3/task1.cpp)|[Output](/lab3/Output/task1.jpg)
+  * [Task2](/lab3/task2.cpp)|[Output](/lab3/Output/task2.jpg)
+  * [Task3](/lab3/task3.cpp)|[Output](/lab3/Output/task3.jpg)
+  * [Task4](/lab3/task4.cpp)|[Output](/lab3/Output/task4.jpg)
+  * [Task5](/lab3/task5.cpp)|[Output](/lab3/Output/task5.jpg)
   
 ***
 ### Name:DEVRAJ PARAJULI
