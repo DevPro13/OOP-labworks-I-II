@@ -13,20 +13,20 @@ public:
         cout<<"Complex num is "<<endl;
         cout<<real<<" + i"<<imag<<endl;
     }
-    friend complex operator++();
-    friend complex operator++(int);
+    friend complex operator++(complex&);
+    friend complex operator++(complex&,int);
 };
-complex operator++(){//prefix increment
-        ++real;
-        ++imag;
-        complex c(real,imag);
-        return c;
+complex operator++(complex &c){//prefix increment
+        ++c.real;
+        ++c.imag;
+        complex ctemp(c.real,c.imag);
+        return ctemp;
 }
-    complex operator++(int){//postfix increment
-        real++;
-        imag++;
-        complex c(real,imag);
-        return c;
+    complex operator++(complex &c,int x){//postfix increment
+        c.real++;
+        c.imag++;
+        complex ctemp(c.real,c.imag);
+        return ctemp;
 }
 int main(){
     complex c(11,12);

@@ -12,7 +12,7 @@ public:
     void showdata(){
         cout<<real<<" + i"<<imag<<endl;
     }
-    complex operator+(const complex &c){//postfix increment
+    complex operator+(const complex &c){
         int r=real+c.real;
         int i=imag+c.imag;
         complex c3(r,i);
